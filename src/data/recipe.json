@@ -1,0 +1,55 @@
+{
+  "data": {
+    "recipe": {
+      "id": "wp-us-recipe-13855",
+      "title": "Halloumi burger with rutabaga fries",
+      "modifiedAt": "2019-01-15T10:30:00Z",
+      "images": {
+        "vt": "https://i.dietdoctor.com/wp-content/uploads/2015/02/hamb-blogg-800x478.jpg",
+        "hz": "https://i.dietdoctor.com/wp-content/uploads/2015/12/hamb-blogg2.jpg",
+        "default": "https://i.dietdoctor.com/wp-content/uploads/2015/02/hamb-blogg-800x478.jpg"
+      },
+      "isMealplanReady": false,
+      "description": "Hello, Gorgeous! Let’s get right to the cheese of the matter with these amazing vegetarian burgers. Enjoy them with our low-carb cheese bread, and be prepared to swoon!",
+      "rating": 4.3412699699401855,
+      "servings": {
+        "default": 4,
+        "allowed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "nutrition": {
+        "values": {
+          "carbs": 14.852593421936035,
+          "fat": 97.84784698486328,
+          "protein": 44.27109909057617,
+          "calories": 1136.0665283203125
+        },
+        "percentages": {
+          "carbs": 5.3181471824646,
+          "fat": 78.83006286621094,
+          "protein": 15.851792335510254
+        }
+      },
+      "time": {
+        "preparation": 30,
+        "cook": 30
+      },
+      "difficulty": {
+        "rating": "medium",
+        "value": 3
+      }
+    }
+  }
+}

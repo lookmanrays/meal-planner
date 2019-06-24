@@ -1,0 +1,38 @@
+.MealPlanner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1200px;
+}
+
+.MealPlannerHeader {
+  color: #404040;
+}
+
+.MealPlannerHeaderEditorInput {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  width: 100%;
+  border: 1px solid silver;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.MealPlannerHeaderEditorTextarea {
+  display: block;
+  margin: 0 0 1rem 0;
+  width: 75%;
+  border: 1px solid silver;
+  padding: 12px 10px 12px 10px;
+  font-size: 18px;
+  color: #404040;
+}
+
+.MealPlannerHeaderEditorInput::placeholder,
+.MealPlannerHeaderEditorTextarea::placeholder {
+  color: #757575;
+}
