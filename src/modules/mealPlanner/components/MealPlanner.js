@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MealPlannerHeader from './MealPlannerHeader';
+import PlannerHeader from './PlannerHeader';
 import './MealPlanner.css'
+import Planner from "./Planner";
 
 class MealPlanner extends React.Component {
   // ToDo Will be great to use TypeScript. Here is too much types
@@ -102,11 +103,12 @@ class MealPlanner extends React.Component {
 
     return (
       <div className="MealPlanner">
-        <MealPlannerHeader plan={{
+        <PlannerHeader plan={{
           title,
           description,
           isMembersOnly,
         }} />
+        <Planner />
       </div>
     )
   }
