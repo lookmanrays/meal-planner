@@ -1,21 +1,25 @@
 .MealPlanner {
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   flex-grow: 1;
   width: 100%;
   min-width: 320px;
   max-width: 1200px;
 }
 
+.MealPlannerLeft {
+  width: 75%;
+}
+
+.MealPlannerRight {
+  width: 25%;
+}
+
 .MealPlannerHeader {
-  display: flex;
   color: #404040;
 }
 
 .MealPlannerHeaderMeta {
-  padding-right: 30px;
-  width: 70%;
 }
 
 .MealPlannerHeaderMeta .description {

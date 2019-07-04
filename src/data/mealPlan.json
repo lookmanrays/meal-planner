@@ -1,0 +1,583 @@
+{
+  "data": {
+    "mealplan": {
+      "id": "wp-us-mealplan-444782",
+      "title": "Get started week 2",
+      "modifiedAt": "2017-12-26T11:59:31Z",
+      "description": "This is the second week of our 2-week Get Started Challenge but you can use it anytime you want. It's a ketogenic meal plan that will keep you below 20 g of carbs per day. We recommend taking the challenge, it's free and it will provide you with knowledge, tips and everything you need for the start of a healthy, ketogenic lifestyle (sign up).\r\n\r\nWeek 2 daily tips",
+      "isMembersOnly": false,
+      "type": "standard",
+      "nutritionAverage": {
+        "values": {
+          "fat": 176.30905151367188,
+          "carbs": 13.246957778930664,
+          "protein": 90.47061920166016,
+          "calories": 2026.90283203125
+        },
+        "percentages": {
+          "fat": 79.27360534667969,
+          "carbs": 2.647205114364624,
+          "protein": 18.079193115234375
+        }
+      },
+      "schedule": [
+        {
+          "name": "saturday",
+          "breakfast": {
+            "recipes": [
+              "wp-us-recipe-93466"
+            ]
+          },
+          "lunch": {
+            "recipes": [
+              "wp-us-recipe-1226017"
+            ]
+          },
+          "dinner": {
+            "recipes": [
+              "wp-us-recipe-1384519"
+            ]
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "sunday",
+          "breakfast": {
+            "recipes": [
+              "wp-us-recipe-93466"
+            ]
+          },
+          "lunch": {
+            "recipes": [
+              "wp-us-recipe-1384519"
+            ]
+          },
+          "dinner": {
+            "recipes": [
+              "wp-us-recipe-1371096"
+            ]
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "monday2",
+          "breakfast": {
+            "recipes": []
+          },
+          "lunch": {
+            "recipes": [
+              "wp-us-recipe-1371096"
+            ]
+          },
+          "dinner": {
+            "recipes": []
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "sunday0",
+          "breakfast": {
+            "recipes": []
+          },
+          "lunch": {
+            "recipes": []
+          },
+          "dinner": {
+            "recipes": []
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "tuesday",
+          "breakfast": {
+            "recipes": [
+              "wp-us-recipe-98899"
+            ]
+          },
+          "lunch": {
+            "recipes": [
+              "wp-us-recipe-1370988"
+            ]
+          },
+          "dinner": {
+            "recipes": [
+              "wp-us-recipe-1384453"
+            ]
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "thursday",
+          "breakfast": {
+            "recipes": [
+              "wp-us-recipe-98899"
+            ]
+          },
+          "lunch": {
+            "recipes": [
+              "wp-us-recipe-1384380"
+            ]
+          },
+          "dinner": {
+            "recipes": [
+              "wp-us-recipe-1384724"
+            ]
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "friday",
+          "breakfast": {
+            "recipes": [
+              "wp-us-recipe-98899"
+            ]
+          },
+          "lunch": {
+            "recipes": [
+              "wp-us-recipe-1384724"
+            ]
+          },
+          "dinner": {
+            "recipes": [
+              "wp-us-recipe-1226017"
+            ]
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "monday",
+          "breakfast": {
+            "recipes": [
+              "wp-us-recipe-98899"
+            ]
+          },
+          "lunch": {
+            "recipes": []
+          },
+          "dinner": {
+            "recipes": [
+              "wp-us-recipe-1370988"
+            ]
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        },
+        {
+          "name": "wednesday",
+          "breakfast": {
+            "recipes": [
+              "wp-us-recipe-98899"
+            ]
+          },
+          "lunch": {
+            "recipes": [
+              "wp-us-recipe-1384453"
+            ]
+          },
+          "dinner": {
+            "recipes": [
+              "wp-us-recipe-1384380"
+            ]
+          },
+          "nutrition": {
+            "values": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0,
+              "calories": 0
+            },
+            "percentages": {
+              "fat": 0,
+              "carbs": 0,
+              "protein": 0
+            }
+          }
+        }
+      ],
+      "shoppingList": [
+        {
+          "id": "wp-us-ingredient-365783",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Eggs"
+        },
+        {
+          "id": "wp-us-ingredient-365798",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Fats and Oils"
+        },
+        {
+          "id": "wp-us-ingredient-365792",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Spices and seasonings"
+        },
+        {
+          "id": "wp-us-ingredient-365796",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Spices and seasonings"
+        },
+        {
+          "id": "wp-us-ingredient-365880",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-369047",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-366895",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-366930",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Dairy"
+        },
+        {
+          "id": "wp-us-ingredient-365854",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-365818",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Fats and Oils"
+        },
+        {
+          "id": "wp-us-ingredient-1296158",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Protein"
+        },
+        {
+          "id": "wp-us-ingredient-366931",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Protein"
+        },
+        {
+          "id": "wp-us-ingredient-365865",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-645607",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-365797",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Pantry"
+        },
+        {
+          "id": "wp-us-ingredient-365793",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Spices and seasonings"
+        },
+        {
+          "id": "wp-us-ingredient-365851",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Pantry"
+        },
+        {
+          "id": "wp-us-ingredient-365811",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-368716",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Protein"
+        },
+        {
+          "id": "wp-us-ingredient-368797",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Pantry"
+        },
+        {
+          "id": "wp-us-ingredient-366966",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Protein"
+        },
+        {
+          "id": "wp-us-ingredient-366909",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-365850",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Pantry"
+        },
+        {
+          "id": "wp-us-ingredient-365829",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Protein"
+        },
+        {
+          "id": "wp-us-ingredient-365847",
+          "optional": false,
+          "beforeName": "cold",
+          "afterName": "",
+          "shoppingSection": "If necessary"
+        },
+        {
+          "id": "wp-us-ingredient-409280",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Spices and seasonings"
+        },
+        {
+          "id": "wp-us-ingredient-368045",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Pantry"
+        },
+        {
+          "id": "wp-us-ingredient-367044",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Dairy"
+        },
+        {
+          "id": "wp-us-ingredient-1228857",
+          "optional": false,
+          "beforeName": "",
+          "afterName": ", in slices",
+          "shoppingSection": "Dairy"
+        },
+        {
+          "id": "wp-us-ingredient-366932",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-366927",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-369893",
+          "optional": true,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Fresh herbs"
+        },
+        {
+          "id": "wp-us-ingredient-366990",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Spices and seasonings"
+        },
+        {
+          "id": "wp-us-ingredient-365794",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Fats and Oils"
+        },
+        {
+          "id": "wp-us-ingredient-366967",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-366765",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-365840",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Pantry"
+        },
+        {
+          "id": "wp-us-ingredient-374720",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Fresh herbs"
+        },
+        {
+          "id": "wp-us-ingredient-367900",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Protein"
+        },
+        {
+          "id": "wp-us-ingredient-366928",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Produce"
+        },
+        {
+          "id": "wp-us-ingredient-369907",
+          "optional": false,
+          "beforeName": "",
+          "afterName": "",
+          "shoppingSection": "Spices and seasonings"
+        }
+      ]
+    }
+  }
+}

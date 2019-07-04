@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {bindActionCreators, compose} from 'redux';
+import connect from 'react-redux/es/connect/connect';
 import PlannerHeader from './PlannerHeader';
 import './MealPlanner.css'
-import Planner from "./Planner";
+import Planner from './Planner';
+import { getRecipes } from '../../../actions/recipes';
 
 class MealPlanner extends React.Component {
   // ToDo Will be great to use TypeScript. Here is too much types
@@ -95,23 +98,59 @@ class MealPlanner extends React.Component {
           protein: PropTypes.number,
         }),
       }),
-    }))
+    })),
+    recipes: PropTypes.shape({
+      [PropTypes.string]: PropTypes.shape({
+        id: PropTypes.string,
+        title: PropTypes.string,
+      }),
+    }).isRequired,
   };
 
+  constructor(props) {
+    super(props);
+    const { onGetRecipes } = this.props;
+
+    this.state = {};
+    onGetRecipes();
+  }
+
   render() {
-    const { title, description, isMembersOnly } = this.props;
+    const { title, description, recipes, isMembersOnly } = this.props;
 
     return (
       <div className="MealPlanner">
-        <PlannerHeader plan={{
-          title,
-          description,
-          isMembersOnly,
-        }} />
-        <Planner />
+        <div className="MealPlannerLeft">
+          <PlannerHeader plan={{
+            title,
+            description,
+            isMembersOnly,
+          }} />
+          <Planner recipes={recipes} />
+        </div>
+        <div className="MealPlannerRight">
+          <div className="MealPlannerAverageNutrition">Here will be average nutrition</div>
+        </div>
       </div>
     )
   }
 }
 
-export default MealPlanner;
+export default compose(
+  connect(
+    (state) => {
+      const { recipes } = state;
+
+      return {
+        recipes: recipes.byId || {}
+      };
+    },
+    (dispatch) =>
+      bindActionCreators(
+        {
+          onGetRecipes: getRecipes,
+        },
+        dispatch,
+      ),
+  ),
+)(MealPlanner);

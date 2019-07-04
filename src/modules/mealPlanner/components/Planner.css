@@ -1,0 +1,65 @@
+.Planner {
+  padding: 20px 0;
+}
+
+.PlannerDayRow {
+  padding: 10px 0;
+}
+
+.PlannerDayRowMealListName {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.PlannerDayRowMealList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.PlannerDayRowMealListItem {
+}
+
+.PlannerDayRowMealRecipeInner {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.PlannerDayRowMealItemName {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.PlannerDayRowMealRecipeContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.PlannerDayRowMealRecipe {
+}
+
+.PlannerDayRowMealAddRecipe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #fff3e1;
+  font-size: 14px;
+  transition: font-weight 0.1s ease-in-out;
+}
+
+.PlannerDayRowMealAddRecipe:hover {
+  background: #f7e6cc;
+  font-weight: 600;
+}

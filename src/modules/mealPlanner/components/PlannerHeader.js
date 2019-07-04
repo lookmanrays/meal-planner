@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './MealPlanner.css';
 import { ReactComponent as EditIcon } from './EditIcon.svg'
-import PlannerMetaEditor from "./PlannerMetaEditor";
+import PlannerMetaEditor from './PlannerMetaEditor';
 
 class PlannerHeader extends React.Component {
   static propTypes = {
@@ -24,19 +24,17 @@ class PlannerHeader extends React.Component {
       description,
       isMembersOnly,
       editing: !title,
-    }
+    };
   }
 
   handleChangeInput = (event) => {
     const { name, value } = event.target;
-    console.log(111)
 
     this.setState({ [name]: value });
   };
 
   handleChangeCheckbox = (event) => {
     const { name, checked } = event.target;
-    console.log(event)
 
     this.setState({ [name]: checked });
   };
@@ -99,7 +97,6 @@ class PlannerHeader extends React.Component {
             />
           )}
         </div>
-        <div className="MealPlannerHeaderNutrition">Here will be average nutrition</div>
       </div>
     )
   }
