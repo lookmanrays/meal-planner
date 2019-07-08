@@ -1,0 +1,55 @@
+.Button {
+  padding: 0.5rem 1.5rem;
+  min-width: 115px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.Button svg {
+  margin-right: 5px;
+  vertical-align: baseline;
+}
+
+.Button:hover {
+  opacity: 0.8;
+}
+
+.Button:focus,
+.Button:active {
+  opacity: 0.9;
+}
+
+.ButtonTheme-primary {
+  margin-right: 10px;
+  background: #06b05b;
+  color: #fff;
+}
+
+.ButtonTheme-primary svg {
+  fill: #fff;
+}
+
+.ButtonTheme-secondary {
+  border: 1px solid;
+  color: #404040;
+  opacity: 0.7;
+}
+
+.ButtonTheme-primary.ButtonColor-warning {
+  background: #f086a4;
+  color: #fff;
+}
+
+.ButtonTheme-secondary.ButtonColor-warning {
+  color: #f086a4;
+}
+
+.ButtonTheme-secondary:hover {
+  opacity: 1;
+}

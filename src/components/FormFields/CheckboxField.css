@@ -1,0 +1,70 @@
+.CheckboxField {
+  display: block;
+  margin: 0 0 1rem;
+  padding: 0;
+  width: 100%;
+}
+
+.CheckboxFieldLabel {
+  position: relative;
+  display: block;
+  margin: 0 0 5px;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.CheckboxFieldHint {
+  color: #797979;
+  font-size: 14px;
+}
+
+.CheckboxFieldInput {
+  display: block;
+  padding: 0.6rem;
+  width: 100%;
+  border: 1px solid silver;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.CheckboxFieldInputHidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.CheckboxFieldInputCheckbox {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  border: 2px solid #0e3478;
+  background: #fff;
+}
+
+.CheckboxFieldInputHidden:checked + .CheckboxFieldInputCheckbox::before,
+.CheckboxFieldInputHidden:checked + .CheckboxFieldInputCheckbox::after {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 5px;
+  height: 2px;
+  border-radius: 1px;
+  background: #0e3478;
+  content: '';
+  transition: opacity 0.3s ease-in-out;
+  transform: rotate(45deg);
+}
+
+.CheckboxFieldInputHidden:checked + .CheckboxFieldInputCheckbox::after {
+  top: 6px;
+  left: 4px;
+  width: 9px;
+  transform: rotate(-45deg);
+}

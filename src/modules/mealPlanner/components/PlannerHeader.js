@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './MealPlanner.css';
 import { ReactComponent as EditIcon } from './EditIcon.svg'
 import PlannerMetaEditor from './PlannerMetaEditor';
+import Button from '../../../components/Button/Button';
 
 class PlannerHeader extends React.Component {
   static propTypes = {
@@ -75,13 +76,13 @@ class PlannerHeader extends React.Component {
                   : 'Only you can view this meal plan.'}
               </div>
               <div className="MealPlannerHeaderEditorControls">
-                <button className="button warning primary" type="button" onClick={this.handleEdit}>
+                <Button color="warning" type="button" onClick={this.handleEdit}>
                   <EditIcon width={15} />
                   Edit {/* usually I'm using i18n .json files or data from server */}
-                </button>
-                <button type="button" className="button warning secondary">
+                </Button>
+                <Button type="button" color="warning" theme="secondary">
                   Delete {/* usually I'm using i18n .json files or data from server */}
-                </button>
+                </Button>
               </div>
             </div>
           )}

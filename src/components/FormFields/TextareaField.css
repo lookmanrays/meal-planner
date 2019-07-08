@@ -1,0 +1,22 @@
+.TextareaField {
+  display: block;
+  margin: 0 0 1rem;
+  padding: 0;
+  width: 100%;
+}
+
+.TextareaFieldInput {
+  display: block;
+  margin: 0;
+  width: 100%;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 12px 10px 12px 10px;
+  font-size: 18px;
+  color: #404040;
+}
+
+.MealPlannerHeaderEditorInput::placeholder,
+.TextareaFieldInput::placeholder {
+  color: #757575;
+}

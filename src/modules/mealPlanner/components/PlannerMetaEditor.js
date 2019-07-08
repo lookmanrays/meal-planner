@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './MealPlanner.css';
+import InputField from '../../../components/FormFields/InputField';
+import TextareaField from '../../../components/FormFields/TextareaField';
+import CheckboxField from '../../../components/FormFields/CheckboxField';
+import Button from '../../../components/Button/Button';
 
 class PlannerMetaEditor extends React.Component {
   static propTypes = {
@@ -28,53 +32,38 @@ class PlannerMetaEditor extends React.Component {
       <div className="MealPlannerHeaderEditor">
         <form className="MealPlannerHeaderEditorForm" onSubmit={this.handleSubmit}>
           <div className="MealPlannerHeaderEditorFields">
-            <div className="MealPlannerHeaderEditorField">
-              <input
-                type="text"
-                name="title"
-                value={title}
-                className="MealPlannerHeaderEditorInput"
-                onChange={onChange}
-                placeholder="Name your meal plan"
-                maxLength={80}
-              />
-            </div>
-            <div className="MealPlannerHeaderEditorField">
-              <textarea
-                rows={5}
-                name="description"
-                value={description}
-                className="MealPlannerHeaderEditorTextarea"
-                onChange={onChange}
-                placeholder="Describe your meal plan"
-                maxLength={800}
-              />
-            </div>
-            <div className="MealPlannerHeaderEditorField">
-              <label htmlFor="isMembersOnly" className="MealPlannerHeaderEditorCheckboxLabel">
-                <input
-                  id="isMembersOnly"
-                  type="checkbox"
-                  name="isMembersOnly"
-                  checked={isMembersOnly}
-                  className="MealPlannerHeaderEditorInputCheckboxHidden"
-                  onChange={onChangeCheckbox}
-                />
-                <div className="MealPlannerHeaderEditorInputCheckbox" />
-                {'Allow other members who have the link to view this meal plan?'}
-              </label>
-              <div className="hint">
-                The meal plan will not be listed, but this allows you to manually share the link with other members.
-              </div>
-            </div>
+            <InputField
+              type="text"
+              name="title"
+              value={title}
+              onChange={onChange}
+              placeholder="Name your meal plan"
+              maxLength={80}
+            />
+            <TextareaField
+              rows={5}
+              name="description"
+              value={description}
+              onChange={onChange}
+              placeholder="Describe your meal plan"
+              maxLength={800}
+            />
+            <CheckboxField
+              type="checkbox"
+              name="isMembersOnly"
+              label="Allow other members who have the link to view this meal plan?"
+              checked={isMembersOnly}
+              onChange={onChangeCheckbox}
+              hint="The meal plan will not be listed, but this allows you to manually share the link with other members."
+            />
           </div>
           <div className="MealPlannerHeaderEditorControls">
-            <button className="button primary" type="submit" onClick={onSubmit}>
+            <Button type="submit" onClick={onSubmit}>
               Save {/* usually I'm using i18n .json files or data from server */}
-            </button>
-            <button type="button" className="button secondary" onClick={onCancel}>
+            </Button>
+            <Button type="button" theme="secondary" onClick={onCancel}>
               Cancel {/* usually I'm using i18n .json files or data from server */}
-            </button>
+            </Button>
           </div>
         </form>
       </div>
