@@ -60,6 +60,7 @@ class Planner extends React.Component {
         title: PropTypes.string,
       }),
     }).isRequired,
+    toggleRecipeChooser: PropTypes.func,
   };
 
   static defaultProps = {
@@ -84,7 +85,7 @@ class Planner extends React.Component {
   };
 
   render() {
-    const { recipes, mealPlan } = this.props;
+    const { recipes, mealPlan, toggleRecipeChooser } = this.props;
 
     return (
       <div className="Planner">
@@ -96,7 +97,7 @@ class Planner extends React.Component {
               recipes={recipes}
               mealList={mealList}
               day={mealPlan.schedule.find((d) => d.name.includes(day))}
-              showRecipeChooser={() => console.log('Show chooser!')}
+              showRecipeChooser={toggleRecipeChooser}
             />
           ))}
         </div>

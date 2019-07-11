@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {bindActionCreators, compose} from 'redux';
+import { bindActionCreators, compose } from 'redux';
 import connect from 'react-redux/es/connect/connect';
 import PlannerHeader from './PlannerHeader';
 import './MealPlanner.css'
 import Planner from './Planner';
+import Overlay from '../../../components/Overlay/Overlay';
 import { getRecipes } from '../../../actions/recipes';
+import RecipeChooser from "./RecipeChooser";
 
 class MealPlanner extends React.Component {
   // ToDo Will be great to use TypeScript. Here is too much types
@@ -111,12 +113,23 @@ class MealPlanner extends React.Component {
     super(props);
     const { onGetRecipes } = this.props;
 
-    this.state = {};
+    this.state = {
+      showRecipeChooser: false,
+    };
     onGetRecipes();
   }
 
+  handleToggleRecipeChooser = () => {
+    const { showRecipeChooser } = this.state;
+
+    this.setState({
+      showRecipeChooser: !showRecipeChooser,
+    })
+  };
+
   render() {
     const { title, description, recipes, isMembersOnly } = this.props;
+    const { showRecipeChooser } = this.state;
 
     return (
       <div className="MealPlanner">
@@ -126,11 +139,16 @@ class MealPlanner extends React.Component {
             description,
             isMembersOnly,
           }} />
-          <Planner recipes={recipes} />
+          <Planner toggleRecipeChooser={this.handleToggleRecipeChooser} recipes={recipes} />
         </div>
         <div className="MealPlannerRight">
           <div className="MealPlannerAverageNutrition">Here will be average nutrition</div>
         </div>
+        {showRecipeChooser && (
+          <Overlay>
+            <RecipeChooser onClose={this.handleToggleRecipeChooser} />
+          </Overlay>
+        )}
       </div>
     )
   }
